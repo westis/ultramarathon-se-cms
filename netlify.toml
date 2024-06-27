@@ -1,0 +1,9 @@
+[build]
+  base = "cms"
+  publish = "dist"
+  command = "npm install --legacy-peer-deps && npm run build"
+
+[build.environment]
+  SANITY_PROJECT_ID = "w4mxvbu4"
+  SANITY_DATASET = "production"
+
