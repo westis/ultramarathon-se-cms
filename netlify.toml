@@ -1,5 +1,4 @@
 [build]
-  base = "cms"
   publish = "dist"
   command = "npm install --legacy-peer-deps && npm run build"
 
